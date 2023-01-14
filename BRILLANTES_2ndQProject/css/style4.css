@@ -182,6 +182,7 @@ h2 {
 	transform: scale(.26);
 	margin-right: 0px;
 }
+
 footer {
     position:relative;
     left: 0;
@@ -198,24 +199,6 @@ footer {
 	justify-content:center;
 }
 
-
-.sprite {
-	background: url('imgs/sprite.JPG') no-repeat -136px -248px;
-	width: 20px;
-	height: 20px;
-}
-
-#fb {
-	background: url('imgs/sprite.JPG') no-repeat -40px -248px;
-	width: 80px;
-	height: 74px;
-}
-
-#twt {
-	background: url('imgs/sprite.JPG') no-repeat -240px -248px;
-	width: 74px;
-	height: 72px;
-}
 a.socmed:link {
 	color: green;
 	text-decoration: none;
@@ -237,8 +220,6 @@ a.socmed:active{
 }
 	
 
-
-	
 
 
 
