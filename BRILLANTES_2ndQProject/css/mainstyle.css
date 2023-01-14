@@ -1,0 +1,176 @@
+*{
+	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	background-color: #FFEBE5;
+	font-family: Verdana;
+}
+
+nav {
+  overflow: hidden;
+  background-color: rgb(178,31,89);
+  border-bottom: 2px solid white;
+}
+
+nav a { 
+	float: left;
+	text-align: center;
+	padding: 15px 19px;
+	text-decoration: none;
+	background-color: rgb(178,31,89); 
+	color: white;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color:rgb(178,31,89);
+}
+
+nav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+header{
+	font-family: Verdana;
+	text-align: center;
+	margin-bottom: 15px;
+	margin-top: 40px;
+}
+
+section {
+  margin: auto;
+  width: 65%;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px; 
+  margin-top: 20px;
+}
+
+span {
+	font-weight: bold;
+	color: rgb(178,31,89);
+}
+
+.gal {
+	width: 200px;
+	height: 200px;
+	border: 5px solid #287C22;
+	text-decoration: none;
+	text-decoration: none;
+	background-color: green;
+	color: white;
+
+}
+
+.gal1{
+	color: white;
+	font-family: Verdana;
+	background-color:#287C22;
+	text-align:center;
+	width:200px;
+	float:left;
+	margin:20px;
+}
+
+.images {
+	display:flex;
+	justify-content:center;
+}
+
+
+.section{
+	text-decoration: none;
+	background-color:#287C22;
+	color: white;
+}
+
+.section:hover{
+	color: grey;
+}
+
+.section:active{
+	text-decoration: none;
+	background-color:#287C22;
+	color: red;
+}
+
+.pics {
+	width: 10px;
+	height: 10px;
+}
+
+.socmed {
+	font-family: Verdana; 
+	font-size: 10px;
+	text-align:center;
+	width:65px;
+	float:left;
+	margin-top:30px;
+}
+
+#ig{
+	background: url('../images/sprite.JPG') no-repeat -136px -248px;
+	width: 80px;
+	height: 72px;
+	transform: scale(.25);
+	margin-right: 0px;
+}
+
+#fb {
+	background: url('../images/sprite.JPG') no-repeat -40px -248px;
+	width: 80px;
+	height: 74px;
+	transform: scale(.25);
+}
+
+#twt{
+	background: url('../images/sprite.JPG') no-repeat -240px -248px;
+	width: 74px;
+	height: 72px;
+	transform: scale(.25);
+}
+
+footer {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+	display:flex;
+	justify-content:center;
+	clear: left;
+}
+
+.links {
+	margin-top: 50px;
+	display:flex;
+	justify-content:center;
+}
+
+a.socmed:link {
+	color: green;
+	text-decoration: none;
+}
+
+a.socmed:visited{
+  color:purple;
+	text-decoration: none;
+}
+
+a.socmed:hover {
+	color: hotpink;
+	text-decoration: none;
+}
+
+a.socmed:active{
+	color: blue;
+	text-decoration: none;
+}
+
+	
+
+
+
+
