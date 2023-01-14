@@ -140,6 +140,14 @@ h2 {
 	margin-right: 0px;
 }
 
+#ig:hover{
+	background: url('../images/sprite.JPG') no-repeat -144px -40px;
+	width: 72px;
+	height: 72px;
+	transform: scale(.25);
+	margin-right: 0px;
+}
+
 #fb {
 	background: url('../images/sprite.JPG') no-repeat -40px -248px;
 	width: 80px;
@@ -147,11 +155,23 @@ h2 {
 	transform: scale(.25);
 }
 
+#fb:hover{
+	background: url('../images/sprite.JPG') no-repeat -40px -136px;
+	width: 86px;
+}
+
 #twt{
 	background: url('../images/sprite.JPG') no-repeat -240px -248px;
 	width: 74px;
 	height: 72px;
 	transform: scale(.25);
+}
+
+#twt:hover{
+	background: url('../images/sprite.JPG') no-repeat -237px -136px;
+	width: 79px;
+	transform: scale(.26);
+	margin-right: 0px;
 }
 
 footer {
